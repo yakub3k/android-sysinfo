@@ -22,8 +22,6 @@ public class MainActivity extends AppCompatActivity
     @BindView(R.id.toolbar)
     Toolbar toolbar;
 
-    @BindView(R.id.fab)
-    FloatingActionButton fabButton;
 
     @BindView(R.id.drawer_layout)
     DrawerLayout drawer;
@@ -91,7 +89,7 @@ public class MainActivity extends AppCompatActivity
         } else if (id == R.id.nav_send) {
 
         }
-        
+
         drawer.closeDrawer(GravityCompat.START);
         return true;
     }
